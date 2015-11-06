@@ -1,0 +1,11 @@
+{
+   "name": "webserver",
+   "default_attributes": {
+   },
+   "json_class": "Chef::Role",
+   "run_list": ["recipe[my_cookbook]"],
+   "description": "webserver role that installs my_cookbook",
+   "chef_type": "role",
+   "override_attributes": {
+   }
+}
