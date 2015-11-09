@@ -8,8 +8,8 @@ machine_image 'webserver' do
           :name => 'ubuntu',
           :repository => 'ubuntu',
           :tag => '14.04'
-      }
-       :ports => "8080:80,
+      },
+      :ports => "8080:80",
   }
 end
 
